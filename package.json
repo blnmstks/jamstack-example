@@ -1,0 +1,16 @@
+{
+  "name": "jamstack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:blnmstks/jamstack-example.git",
+  "author": "dzhem911 <dzhemal911@mail.ru>",
+  "license": "MIT",
+  "packageManager": "yarn@4.8.1",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  },
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  }
+}
